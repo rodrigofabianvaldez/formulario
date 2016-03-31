@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario HTML</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+<body class="container">
+<header>
+	<h2>Formularios con HTML5</h2>
+</header>
+	<nav>
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="#">Inicio</a></li>
+			<li><a href="#">Contacto</a></li>
+			<li><a href="#">Noticias</a></li>
+			<li><a href="#">Proyectos</a></li>
+		</ul>
+	</nav>
+	<section class= "jumbotron">
+		<form method="POST">
+		<label>Nombre</label>
+		<input type="text" class="form-control" name="nombre" placeholder="Escriba su Nombre" required=""></input>
+		<label>Email</label>
+		<input type="email" class="form-control" name="email" placeholder="Escriba su Email" required=""></input>
+		<label>Edad</label>
+		<input type="number" class="form-control" name="edad" placeholder="Escriba su Edad" required= min="0" max="100"></input>
+		<label>Fecha de Nacimiento</label>
+		<input type="date" class="form-control" name="fecha" required=""></input>
+		<br>
+		<input type="submit" class="btn-primary"></input>
+		</form>
+	</section>
+	<footer>
+		
+	</footer>
+</body>
+</html>
